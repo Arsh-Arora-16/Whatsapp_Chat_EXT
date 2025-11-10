@@ -1,0 +1,15 @@
+[13657:8316943:0628/112648.212253:INFO:components/enterprise/browser/controller/chrome_browser_cloud_management_controller.cc:202] No machine level policy manager exists.
+[13657:8316943:0628/112649.347824:INFO:CONSOLE:163] "Event handler of 'x-storagemutated-1' event must be added on the initial evaluation of worker script.", source: https://static.whatsapp.net/rsrc.php/v4/yH/r/VkVN6mx1Tjt.js (163)
+[13657:8316943:0628/112730.052991:INFO:CONSOLE:163] "Event handler of 'x-storagemutated-1' event must be added on the initial evaluation of worker script.", source: https://static.whatsapp.net/rsrc.php/v4/y_/r/94n5BtYWk84.js (163)
+[13657:8316943:0628/112733.134408:WARNING:components/download/internal/background_service/controller_impl.cc:1187] Background download complete, client: 6, completion type: 0, file size:5155
+[13657:8316943:0628/112733.134678:WARNING:components/download/internal/background_service/controller_impl.cc:1187] Background download complete, client: 6, completion type: 0, file size:45175
+[13657:8316943:0628/112734.391567:WARNING:components/download/internal/background_service/controller_impl.cc:1187] Background download complete, client: 6, completion type: 0, file size:2747169
+[13657:8316997:0628/112818.296255:INFO:rlz/lib/rlz_lib.cc:442] Attempting to send RLZ ping brand=CHFA
+[13657:8316997:0628/112818.674992:INFO:rlz/lib/rlz_lib.cc:451] Succeeded in sending RLZ ping
+[13657:8316943:0628/114850.580965:INFO:CONSOLE:76] "ErrorUtils caught an error:
+
+Converting to a string will drop content data. Hash="undefined" Translation="{user_name} added {names}" Content="{"key":null,"ref":null,"props":{"contact":{"id":"919780852377@c.us","type":"in","labels":[],"textStatusLastUpdateTime":-1,"syncToAddressbook":false},"showNotifyName":true,"elevatedPushNamesEnabled":true,"onClick":null}}" (type=object,Object)
+
+Subsequent non-fatal errors won't be logged; see https://fburl.com/debugjs. [object Object]", source: https://static.whatsapp.net/rsrc.php/v4/yq/r/iDdqRfW4eLz.js (76)
+[13657:8316943:0628/121926.577005:WARNING:ui/compositor/compositor_animation_observer.cc:66] CompositorAnimationObserver is active for too long (103.864s) location=FadeAnimationDelegate@chrome/browser/ui/views/tabs/alert_indicator_button.cc:127
+[13657:8316943:0628/122457.233598:ERROR:chrome/browser/ui/webui/new_tab_page/new_tab_page_handler.cc:1353] NewTabPage loaded into a non-browser-tab context

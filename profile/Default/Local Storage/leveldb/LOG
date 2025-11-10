@@ -1,0 +1,9 @@
+2025/06/28-11:26:48.308 7ee8a3 Reusing MANIFEST /Users/arsharora/Desktop/whatsappchatextractor/profile/Default/Local Storage/leveldb/MANIFEST-000001
+2025/06/28-11:26:48.310 7ee8a3 Recovering log #456
+2025/06/28-11:26:48.311 7ee8a3 Reusing old log /Users/arsharora/Desktop/whatsappchatextractor/profile/Default/Local Storage/leveldb/000456.log 
+2025/06/28-11:45:07.573 7ee8a6 Level-0 table #461: started
+2025/06/28-11:45:07.578 7ee8a6 Level-0 table #461: 19254 bytes OK
+2025/06/28-11:45:07.584 7ee8a6 Delete type=0 #456
+2025/06/28-12:10:58.637 7ee8a6 Level-0 table #463: started
+2025/06/28-12:10:58.641 7ee8a6 Level-0 table #463: 23699 bytes OK
+2025/06/28-12:10:58.644 7ee8a6 Delete type=0 #460
