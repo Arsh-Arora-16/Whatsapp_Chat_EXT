@@ -39,3 +39,36 @@ If you have 50–100 groups:
 
 ## 📁 Folder Structure
 
+Whatsapp_Chat_EXT/
+│
+├── classified_output/
+│ └── (category-wise Excel outputs)
+│
+├── final_classified_output/
+│ └── (final refined Excel sheets)
+│
+├── profile/
+│ └── (user/group metadata if needed later)
+│
+├── Pyhton_chat_extractor.ipynb
+├── whatsapp_chat_filtered.txt
+├── filtered_messages_unique.txt
+├── structured_cleaned_chat.xlsx
+└── groups.txt
+
+
+
+---
+
+## ⚙️ How It Works (Pipeline)
+
+```mermaid
+flowchart TD
+    A[WhatsApp Group Export (.txt)] --> B[Filter System Messages]
+    B --> C[Detect Contact Numbers]
+    C --> D[Remove Duplicates]
+    D --> E[Extract Property Attributes]
+    E --> F[Structured Excel File]
+    F --> G[Category-wise Classification]
+    G --> H[Final Cleaned Excel Output]
+
