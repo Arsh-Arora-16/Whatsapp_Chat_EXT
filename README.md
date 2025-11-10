@@ -62,13 +62,13 @@ Whatsapp_Chat_EXT/
 
 ## ⚙️ How It Works (Pipeline)
 
-```mermaid
 flowchart TD
-    A[WhatsApp Group Export (.txt)] --> B[Filter System Messages]
-    B --> C[Detect Contact Numbers]
-    C --> D[Remove Duplicates]
-    D --> E[Extract Property Attributes]
-    E --> F[Structured Excel File]
-    F --> G[Category-wise Classification]
-    G --> H[Final Cleaned Excel Output]
+    A["WhatsApp Group Export (.txt)"] --> B["Filter System Messages"]
+    B --> C["Detect Contact Numbers"]
+    C --> D["Remove Duplicates"]
+    D --> E["Extract Property Attributes"]
+    E --> F["Generate Structured Excel File"]
+    F --> G["Category-wise Classification"]
+    G --> H["Final Cleaned Excel Output"]
+
 
